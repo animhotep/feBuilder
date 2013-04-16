@@ -23,7 +23,9 @@ feBuilder
 =========
 
 В файле htmlInclude.py находится скрипт сборки html. По умолчанию файлы .htm включаются в файлы .html
+
 В файле config.rb настройки compass, для включения сжатия css раскомментировать строку output_style = :compressed
+
 В файле Guardfile находятся настройки запуска скриптов, при изменении файлов. Для включения сжатия javascript файлов нужно скачать yuicompressor и раскомментировать строку `java -jar /путь/к/yuicompressor.jar ./prod/js/all.js -o ./prod/js/all.min.js && rm -rf ./prod/js/all.js`
 
 
