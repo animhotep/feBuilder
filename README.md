@@ -8,7 +8,7 @@ feBuilder
 * сборщик javascript файлов
 * livereload
 
-Установка
+##Установка
 =========
 
 Для работы скриптов необходимо установить Ruby, Python, Java (при использовании сжатия javascript)
@@ -19,7 +19,7 @@ feBuilder
 * [Guard LiveReload](https://github.com/guard/guard-livereload)
 * [Guard Shell](https://github.com/guard/guard-shell)
 
-Настройка
+##Настройка
 =========
 
 В файле htmlInclude.py находится скрипт сборки html. По умолчанию файлы .htm включаются в файлы .html
@@ -29,7 +29,7 @@ feBuilder
 В файле Guardfile находятся настройки запуска скриптов, при изменении файлов. Для включения сжатия javascript файлов нужно скачать yuicompressor и раскомментировать строку `java -jar /путь/к/yuicompressor.jar ./prod/js/all.js -o ./prod/js/all.min.js && rm -rf ./prod/js/all.js`
 
 
-Использование
+##Использование
 =============
 
 Для запуска нужно запустить guard в корне проекта
